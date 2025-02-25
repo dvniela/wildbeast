@@ -93,14 +93,23 @@ img {
   background: #b07dfb;
   transition: 0.1s ease-out;
 }
+
+/* CONTENT */
+
 .content {
   grid-area: content;
 }
+
+/* ANUNCIOS */
 
 .anuncios {
   grid-area: anuncios;
 }
 
+/* FOOTER */
+
 .footer {
   grid-area: footer;
+  background: #fafbfc;
+  display: grid;
 }
